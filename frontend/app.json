@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "AIcar_app2",
+    "slug": "AIcar_app2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "matacritic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.appfreddy.AIcar_app2",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.appfreddy.AIcar_app2",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "4ee41aa8-1570-4662-8c67-5882bf6dd3b0"
+      }
+    }
+  }
+}
